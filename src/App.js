@@ -154,9 +154,9 @@ function App() {
     }
   
   //for clearing the radio button for next question
-  let ele = document.getElementsByName("choice");
-  for(var i=0; i<ele.length; i++)
-      ele[i].checked = false;
+  let radioBtn = document.getElementsByName("choice");
+  for(var i=0; i<radioBtn.length; i++)
+    radioBtn[i].checked = false;
   }
 
   const startAgain = () => {
