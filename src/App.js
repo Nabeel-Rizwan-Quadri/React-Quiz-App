@@ -15,7 +15,11 @@ function App() {
         "JavaScript",
         "JS"
       ],
+<<<<<<< HEAD
       correctAnswer: "JavaScript XML"
+=======
+      correctAnswer: "JavaScript XML?"
+>>>>>>> 91999ba1f49f82b4fb70d5765c117c6a5d44d351
     }, 
     {
       Question: "What is CSS",
